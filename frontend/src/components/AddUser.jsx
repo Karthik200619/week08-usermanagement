@@ -53,7 +53,7 @@ function AddUser() {
           <input
             type='text'
             placeholder='First Name'
-            {...register("firstName")}
+            {...register("firstname")}
             className='border p-3 rounded-lg outline-none focus:border-blue-500'
           />
 
