@@ -10,7 +10,7 @@ function AddUser() {
     try {
 
       const response = await fetch(
-        'http://localhost:5000/user-api/adduser',
+        'https://week08-usermanagement.onrender.com/user-api/adduser',
         {
           method:'POST',
           headers:{
